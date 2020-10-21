@@ -1,0 +1,1194 @@
+var locations = {
+  "Vancouver": {
+    "city": "Vancouver",
+    "province": "BC",
+    "count": "57",
+    "distance": 0,
+    "lat": "49.2608724",
+    "lon": "-123.1139529"
+  },
+  "Toronto": {
+    "city": "Toronto",
+    "province": "ON",
+    "count": "31",
+    "distance": 3358618,
+    "lat": "43.6534817",
+    "lon": "-79.3839347"
+  },
+  "Ottawa": {
+    "city": "Ottawa",
+    "province": "ON",
+    "count": "26",
+    "distance": 3539485,
+    "lat": "45.421106",
+    "lon": "-75.690308"
+  },
+  "Kitchener": {
+    "city": "Kitchener",
+    "province": "ON",
+    "count": "21",
+    "distance": 3288315,
+    "lat": "43.453168",
+    "lon": "-80.494423"
+  },
+  "Edmonton": {
+    "city": "Edmonton",
+    "province": "AB",
+    "count": "19",
+    "distance": 817443,
+    "lat": "53.535411",
+    "lon": "-113.507996"
+  },
+  "Victoria": {
+    "city": "Victoria",
+    "province": "BC",
+    "count": "15",
+    "distance": 94380,
+    "lat": "48.4283182",
+    "lon": "-123.3649533"
+  },
+  "Calgary": {
+    "city": "Calgary",
+    "province": "AB",
+    "count": "15",
+    "distance": 674419,
+    "lat": "51.0534234",
+    "lon": "-114.0625892"
+  },
+  "Montreal": {
+    "city": "Montreal",
+    "province": "QC",
+    "count": "13",
+    "distance": 3683540,
+    "lat": "45.4972159",
+    "lon": "-73.6103642"
+  },
+  "Gatineau": {
+    "city": "Gatineau",
+    "province": "QC",
+    "count": "12",
+    "distance": 3537238,
+    "lat": "45.4841214",
+    "lon": "-75.6813728"
+  },
+  "London": {
+    "city": "London",
+    "province": "ON",
+    "count": "11",
+    "distance": 3257193,
+    "lat": "42.9836747",
+    "lon": "-81.2496068"
+  },
+  "Guelph": {
+    "city": "Guelph",
+    "province": "ON",
+    "count": "9",
+    "distance": 3301436,
+    "lat": "43.5460516",
+    "lon": "-80.2493276"
+  },
+  "Hamilton": {
+    "city": "Hamilton",
+    "province": "ON",
+    "count": "9",
+    "distance": 3343061,
+    "lat": "43.2560802",
+    "lon": "-79.8728583"
+  },
+  "Halifax": {
+    "city": "Halifax",
+    "province": "NS",
+    "count": "7",
+    "distance": 4429167,
+    "lat": "44.648618",
+    "lon": "-63.5859487"
+  },
+  "Burnaby": {
+    "city": "Burnaby",
+    "province": "BC",
+    "count": "7",
+    "distance": 10446,
+    "lat": "49.2433804",
+    "lon": "-122.9725459"
+  },
+  "Coquitlam": {
+    "city": "Coquitlam",
+    "province": "BC",
+    "count": "7",
+    "distance": 23410,
+    "lat": "49.2842958",
+    "lon": "-122.793281"
+  },
+  "Moscow": {
+    "city": "Moscow",
+    "province": "ID",
+    "count": "7",
+    "distance": 534540,
+    "lat": "46.7323875",
+    "lon": "-117.0001651"
+  },
+  "Regina": {
+    "city": "Regina",
+    "province": "SK",
+    "count": "7",
+    "distance": 1329110,
+    "lat": "50.44876",
+    "lon": "-104.61731"
+  },
+  "Lethbridge": {
+    "city": "Lethbridge",
+    "province": "AB",
+    "count": "6",
+    "distance": 742425,
+    "lat": "49.694285",
+    "lon": "-112.851562"
+  },
+  "New Westminster": {
+    "city": "New Westminster",
+    "province": "BC",
+    "count": "5",
+    "distance": 15924,
+    "lat": "49.2067726",
+    "lon": "-122.9108818"
+  },
+  "Fredericton": {
+    "city": "Fredericton",
+    "province": "NB",
+    "count": "5",
+    "distance": 4149318,
+    "lat": "45.966425",
+    "lon": "-66.645813"
+  },
+  "Kamloops": {
+    "city": "Kamloops",
+    "province": "BC",
+    "count": "4",
+    "distance": 253215,
+    "lat": "50.6758269",
+    "lon": "-120.3394159"
+  },
+  "St. Catharines": {
+    "city": "St. Catharines",
+    "province": "ON",
+    "count": "4",
+    "distance": 3393435,
+    "lat": "43.1579812",
+    "lon": "-79.2441003"
+  },
+  "Winnipeg": {
+    "city": "Winnipeg",
+    "province": "MB",
+    "count": "4",
+    "distance": 1864754,
+    "lat": "49.8955367",
+    "lon": "-97.1384584"
+  },
+  "Saskatoon": {
+    "city": "Saskatoon",
+    "province": "SK",
+    "count": "4",
+    "distance": 1199088,
+    "lat": "52.131802",
+    "lon": "-106.660767"
+  },
+  "Surrey": {
+    "city": "Surrey",
+    "province": "BC",
+    "count": "4",
+    "distance": 20728,
+    "lat": "49.1913033",
+    "lon": "-122.8491439"
+  },
+  "Prince George": {
+    "city": "Prince George",
+    "province": "BC",
+    "count": "3",
+    "distance": 517902,
+    "lat": "53.9128645",
+    "lon": "-122.7453699"
+  },
+  "Nanaimo": {
+    "city": "Nanaimo",
+    "province": "BC",
+    "count": "3",
+    "distance": 60822,
+    "lat": "49.1637594",
+    "lon": "-123.9379719"
+  },
+  "Québec": {
+    "city": "Québec",
+    "province": "QC",
+    "count": "3",
+    "distance": 3789906,
+    "lat": "46.8259601",
+    "lon": "-71.2352226"
+  },
+  "Oakville": {
+    "city": "Oakville",
+    "province": "ON",
+    "count": "3",
+    "distance": 3348401,
+    "lat": "43.447436",
+    "lon": "-79.666672"
+  },
+  "Duncan": {
+    "city": "Duncan",
+    "province": "BC",
+    "count": "2",
+    "distance": 68931,
+    "lat": "48.7786872",
+    "lon": "-123.7080446"
+  },
+  "North Vancouver": {
+    "city": "North Vancouver",
+    "province": "BC",
+    "count": "2",
+    "distance": 7264,
+    "lat": "49.3207133",
+    "lon": "-123.0737831"
+  },
+  "Waterloo": {
+    "city": "Waterloo",
+    "province": "ON",
+    "count": "2",
+    "distance": 3285453,
+    "lat": "43.466874",
+    "lon": "-80.524635"
+  },
+  "Philadelphia": {
+    "city": "Philadelphia",
+    "province": "PA",
+    "count": "2",
+    "distance": 3864243,
+    "lat": "39.9527237",
+    "lon": "-75.1635262"
+  },
+  "South Orange": {
+    "city": "South Orange",
+    "province": "NJ",
+    "count": "2",
+    "distance": 3883463,
+    "lat": "40.7474966",
+    "lon": "-74.2635376"
+  },
+  "Windsor": {
+    "city": "Windsor",
+    "province": "ON",
+    "count": "2",
+    "distance": 3162056,
+    "lat": "42.317099",
+    "lon": "-83.0353434"
+  },
+  "": {
+    "city": null,
+    "province": "ON",
+    "count": "1",
+    "distance": 2646619,
+    "lat": "50.000678",
+    "lon": "-86.000977"
+  },
+  "Kingston": {
+    "city": "Kingston",
+    "province": "ON",
+    "count": "2",
+    "distance": 3539175,
+    "lat": "44.230687",
+    "lon": "-76.481323"
+  },
+  "East Lansing": {
+    "city": "East Lansing",
+    "province": "MI",
+    "count": "2",
+    "distance": 3035231,
+    "lat": "42.7355416",
+    "lon": "-84.4852469"
+  },
+  "Denver": {
+    "city": "Denver",
+    "province": "CO",
+    "count": "2",
+    "distance": 1777980,
+    "lat": "39.7392364",
+    "lon": "-104.9848623"
+  },
+  "Providence": {
+    "city": "Providence",
+    "province": "RI",
+    "count": "2",
+    "distance": 4028401,
+    "lat": "41.8239891",
+    "lon": "-71.4128343"
+  },
+  "Kelowna": {
+    "city": "Kelowna",
+    "province": "BC",
+    "count": "2",
+    "distance": 269878,
+    "lat": "49.889326",
+    "lon": "-119.498291"
+  },
+  "Hawkesbury": {
+    "city": "Hawkesbury",
+    "province": "ON",
+    "count": "2",
+    "distance": 3607830,
+    "lat": "45.610281",
+    "lon": "-74.6055611"
+  },
+  "Sydney": {
+    "city": "Sydney",
+    "province": "NS",
+    "count": "2",
+    "distance": 4583642,
+    "lat": "46.137977",
+    "lon": "-60.194092"
+  },
+  "Oshawa": {
+    "city": "Oshawa",
+    "province": "ON",
+    "count": "2",
+    "distance": 3383246,
+    "lat": "43.91768",
+    "lon": "-78.862953"
+  },
+  "Portland": {
+    "city": "Portland",
+    "province": "OR",
+    "count": "2",
+    "distance": 417252,
+    "lat": "45.5202471",
+    "lon": "-122.6741949"
+  },
+  "Durham": {
+    "city": "Durham",
+    "province": "NC",
+    "count": "2",
+    "distance": 3840194,
+    "lat": "35.996653",
+    "lon": "-78.9018053"
+  },
+  "Waterville": {
+    "city": "Waterville",
+    "province": "ME",
+    "count": "2",
+    "distance": 4010701,
+    "lat": "44.5520105",
+    "lon": "-69.6317121"
+  },
+  "Miami": {
+    "city": "Miami",
+    "province": "FL",
+    "count": "2",
+    "distance": 4509045,
+    "lat": "25.7742658",
+    "lon": "-80.1936589"
+  },
+  "Abbotsford": {
+    "city": "Abbotsford",
+    "province": "BC",
+    "count": "2",
+    "distance": 61589,
+    "lat": "49.0521162",
+    "lon": "-122.3294792"
+  },
+  "Burlington": {
+    "city": "Burlington",
+    "province": "ON",
+    "count": "2",
+    "distance": 3345119,
+    "lat": "43.3248924",
+    "lon": "-79.7966835"
+  },
+  "Mississauga": {
+    "city": "Mississauga",
+    "province": "ON",
+    "count": "1",
+    "distance": 3342838,
+    "lat": "43.590338",
+    "lon": "-79.645729"
+  },
+  "Orleans": {
+    "city": "Orleans",
+    "province": "ON",
+    "count": "1",
+    "distance": 3551719,
+    "lat": "45.40683715",
+    "lon": "-75.52745676171389"
+  },
+  "Sherbrooke": {
+    "city": "Sherbrooke",
+    "province": "QC",
+    "count": "1",
+    "distance": 3809609,
+    "lat": "45.403271",
+    "lon": "-71.889038"
+  },
+  "Santa Monica": {
+    "city": "Santa Monica",
+    "province": "CA",
+    "count": "1",
+    "distance": 1736193,
+    "lat": "34.0250724",
+    "lon": "-118.4965129"
+  },
+  "Springfield": {
+    "city": "Springfield",
+    "province": "NE",
+    "count": "1",
+    "distance": 2286400,
+    "lat": "41.0819432",
+    "lon": "-96.13446"
+  },
+  "Durban": {
+    "city": "Durban",
+    "province": null,
+    "count": "1",
+    "distance": 16949966,
+    "lat": "-29.861825",
+    "lon": "31.009909"
+  },
+  "Chicago": {
+    "city": "Chicago",
+    "province": "IL",
+    "count": "1",
+    "distance": 2852551,
+    "lat": "41.8755616",
+    "lon": "-87.6244212"
+  },
+  "Sault Ste. Marie": {
+    "city": "Sault Ste. Marie",
+    "province": "ON",
+    "count": "1",
+    "distance": 2876346,
+    "lat": "46.52391",
+    "lon": "-84.320068"
+  },
+  "Newtonville": {
+    "city": "Newtonville",
+    "province": "MA",
+    "count": "1",
+    "distance": 4014473,
+    "lat": "42.3500968",
+    "lon": "-71.2036659"
+  },
+  "Miramichi": {
+    "city": "Miramichi",
+    "province": "NB",
+    "count": "1",
+    "distance": 4177160,
+    "lat": "47.032695",
+    "lon": "-65.494995"
+  },
+  "Rockford": {
+    "city": "Rockford",
+    "province": "WA",
+    "count": "1",
+    "distance": 2405664,
+    "lat": "43.0521922",
+    "lon": "-92.9485301"
+  },
+  "Dallas": {
+    "city": "Dallas",
+    "province": "TX",
+    "count": "1",
+    "distance": 2843763,
+    "lat": "32.7762719",
+    "lon": "-96.7968559"
+  },
+  "Greater Sudbury": {
+    "city": "Greater Sudbury",
+    "province": "ON",
+    "count": "1",
+    "distance": 3106572,
+    "lat": "46.581496900000005",
+    "lon": "-81.06853818206032"
+  },
+  "North Bay": {
+    "city": "North Bay",
+    "province": "ON",
+    "count": "1",
+    "distance": 3232265,
+    "lat": "46.3092115",
+    "lon": "-79.4607617"
+  },
+  "Thunder Bay": {
+    "city": "Thunder Bay",
+    "province": "ON",
+    "count": "1",
+    "distance": 2458950,
+    "lat": "48.406414",
+    "lon": "-89.259796"
+  },
+  "Reston": {
+    "city": "Reston",
+    "province": "VA",
+    "count": "1",
+    "distance": 3764217,
+    "lat": "38.9583737",
+    "lon": "-77.3579805"
+  },
+  "Wayne": {
+    "city": "Wayne",
+    "province": "NJ",
+    "count": "1",
+    "distance": 3873869,
+    "lat": "40.9491723",
+    "lon": "-74.2376802"
+  },
+  "Albany": {
+    "city": "Albany",
+    "province": "NY",
+    "count": "1",
+    "distance": 3815235,
+    "lat": "42.6511674",
+    "lon": "-73.754968"
+  },
+  "Queens": {
+    "city": "Queens",
+    "province": "NY",
+    "count": "1",
+    "distance": 3917011,
+    "lat": "40.7498243",
+    "lon": "-73.7976337"
+  },
+  "Pemberton": {
+    "city": "Pemberton",
+    "province": "BC",
+    "count": "1",
+    "distance": 119840,
+    "lat": "50.3203804",
+    "lon": "-122.8080783"
+  },
+  "Glace Bay": {
+    "city": "Glace Bay",
+    "province": "NS",
+    "count": "1",
+    "distance": 4596806,
+    "lat": "46.1949393",
+    "lon": "-59.9561999"
+  },
+  "Ithaca": {
+    "city": "Ithaca",
+    "province": "NY",
+    "count": "1",
+    "distance": 3628993,
+    "lat": "42.4396039",
+    "lon": "-76.4968019"
+  },
+  "Minneapolis": {
+    "city": "Minneapolis",
+    "province": "MN",
+    "count": "1",
+    "distance": 2292309,
+    "lat": "44.9772995",
+    "lon": "-93.2654692"
+  },
+  "Cranbrook": {
+    "city": "Cranbrook",
+    "province": "BC",
+    "count": "1",
+    "distance": 532293,
+    "lat": "49.5107477",
+    "lon": "-115.7672772"
+  },
+  "Langley": {
+    "city": "Langley",
+    "province": "BC",
+    "count": "1",
+    "distance": 44430,
+    "lat": "49.106471850000005",
+    "lon": "-122.5501311568147"
+  },
+  "Calabasas": {
+    "city": "Calabasas",
+    "province": "CA",
+    "count": "1",
+    "distance": 1720523,
+    "lat": "34.1446643",
+    "lon": "-118.6440973"
+  },
+  "Chilliwack": {
+    "city": "Chilliwack",
+    "province": "BC",
+    "count": "1",
+    "distance": 85225,
+    "lat": "49.157677",
+    "lon": "-121.9514307"
+  },
+  "Poughkeepsie": {
+    "city": "Poughkeepsie",
+    "province": "NY",
+    "count": "1",
+    "distance": 3853878,
+    "lat": "41.7065539",
+    "lon": "-73.9283672"
+  },
+  "Henderson": {
+    "city": "Henderson",
+    "province": "NV",
+    "count": "1",
+    "distance": 1612262,
+    "lat": "36.0301134",
+    "lon": "-114.9826194"
+  },
+  "Lakefield": {
+    "city": "Lakefield",
+    "province": "ON",
+    "count": "1",
+    "distance": 3401437,
+    "lat": "44.4233365",
+    "lon": "-78.2721953"
+  },
+  "Woodstock": {
+    "city": "Woodstock",
+    "province": "ON",
+    "count": "1",
+    "distance": 3285506,
+    "lat": "43.1301111",
+    "lon": "-80.7562977"
+  },
+  "Joplin": {
+    "city": "Joplin",
+    "province": "MO",
+    "count": "1",
+    "distance": 2661965,
+    "lat": "37.08418",
+    "lon": "-94.51323"
+  },
+  "Sharjah": {
+    "city": "Sharjah",
+    "province": null,
+    "count": "1",
+    "distance": 11717891,
+    "lat": "25.3461498",
+    "lon": "55.4210633"
+  },
+  "Tallahassee": {
+    "city": "Tallahassee",
+    "province": "FL",
+    "count": "1",
+    "distance": 3858311,
+    "lat": "30.4380832",
+    "lon": "-84.2809332"
+  },
+  "Fort Nelson": {
+    "city": "Fort Nelson",
+    "province": "BC",
+    "count": "1",
+    "distance": 1061750,
+    "lat": "58.8062848",
+    "lon": "-122.6939592"
+  },
+  "Brampton": {
+    "city": "Brampton",
+    "province": "ON",
+    "count": "1",
+    "distance": 3329899,
+    "lat": "43.6858146",
+    "lon": "-79.7599337"
+  },
+  "Chennai": {
+    "city": "Chennai",
+    "province": null,
+    "count": "1",
+    "distance": 12712524,
+    "lat": "13.0801721",
+    "lon": "80.2838331"
+  },
+  "St. John's": {
+    "city": "St. John's",
+    "province": "NL",
+    "count": "1",
+    "distance": 5005514,
+    "lat": "47.561701",
+    "lon": "-52.715149"
+  },
+  "Acton": {
+    "city": "Acton",
+    "province": "ON",
+    "count": "1",
+    "distance": 3312575,
+    "lat": "43.6340679",
+    "lon": "-80.0351117"
+  },
+  "West Lafayette": {
+    "city": "West Lafayette",
+    "province": "IN",
+    "count": "1",
+    "distance": 2985439,
+    "lat": "40.4258686",
+    "lon": "-86.9080655"
+  },
+  "Medicine Hat": {
+    "city": "Medicine Hat",
+    "province": "AB",
+    "count": "1",
+    "distance": 898363,
+    "lat": "50.04303",
+    "lon": "-110.679016"
+  },
+  "Vaughan": {
+    "city": "Vaughan",
+    "province": "ON",
+    "count": "1",
+    "distance": 3341418,
+    "lat": "43.7941544",
+    "lon": "-79.5268023"
+  },
+  "Hyattsville": {
+    "city": "Hyattsville",
+    "province": "MD",
+    "count": "1",
+    "distance": 3794814,
+    "lat": "38.9529442",
+    "lon": "-76.9408647"
+  },
+  "Oakland": {
+    "city": "Oakland",
+    "province": "CA",
+    "count": "1",
+    "distance": 1275683,
+    "lat": "37.8044557",
+    "lon": "-122.2713563"
+  },
+  "Lynn": {
+    "city": "Lynn",
+    "province": "MA",
+    "count": "1",
+    "distance": 4026324,
+    "lat": "42.466763",
+    "lon": "-70.9494939"
+  },
+  "Grand Rapids": {
+    "city": "Grand Rapids",
+    "province": "MI",
+    "count": "1",
+    "distance": 2937879,
+    "lat": "42.9632405",
+    "lon": "-85.6678639"
+  },
+  "Parkville": {
+    "city": "Parkville",
+    "province": "MD",
+    "count": "1",
+    "distance": 3798442,
+    "lat": "39.3773292",
+    "lon": "-76.5396875"
+  },
+  "Vaudreuil-Dorion": {
+    "city": "Vaudreuil-Dorion",
+    "province": "QC",
+    "count": "1",
+    "distance": 3658799,
+    "lat": "45.3971509",
+    "lon": "-74.0254577"
+  },
+  "Prince Rupert": {
+    "city": "Prince Rupert",
+    "province": "BC",
+    "count": "1",
+    "distance": 748643,
+    "lat": "54.3126572",
+    "lon": "-130.32549"
+  },
+  "Nelson": {
+    "city": "Nelson",
+    "province": "BC",
+    "count": "1",
+    "distance": 422321,
+    "lat": "49.494891",
+    "lon": "-117.290039"
+  },
+  "Squamish": {
+    "city": "Squamish",
+    "province": "BC",
+    "count": "1",
+    "distance": 48709,
+    "lat": "49.6980743",
+    "lon": "-123.1558612"
+  },
+  "Rancho Palos Verdes": {
+    "city": "Rancho Palos Verdes",
+    "province": "CA",
+    "count": "1",
+    "distance": 1768644,
+    "lat": "33.7483311",
+    "lon": "-118.3707683"
+  },
+  "North Battleford": {
+    "city": "North Battleford",
+    "province": "SK",
+    "count": "1",
+    "distance": 1104984,
+    "lat": "52.776186",
+    "lon": "-108.300476"
+  },
+  "St. Albert": {
+    "city": "St. Albert",
+    "province": "AB",
+    "count": "1",
+    "distance": 3767591,
+    "lat": "46.0003622",
+    "lon": "-72.0885118"
+  },
+  "Groton": {
+    "city": "Groton",
+    "province": "CT",
+    "count": "1",
+    "distance": 4007060,
+    "lat": "41.3506989",
+    "lon": "-72.0773654"
+  },
+  "North Kingstown": {
+    "city": "North Kingstown",
+    "province": "RI",
+    "count": "1",
+    "distance": 4039532,
+    "lat": "41.5514283",
+    "lon": "-71.4693875"
+  },
+  "Rumford": {
+    "city": "Rumford",
+    "province": "RI",
+    "count": "1",
+    "distance": 4031582,
+    "lat": "41.8453781",
+    "lon": "-71.3519985"
+  },
+  "Nepean": {
+    "city": "Nepean",
+    "province": "ON",
+    "count": "1",
+    "distance": 3537527,
+    "lat": "45.3112854",
+    "lon": "-75.78874257984916"
+  },
+  "Port Moody": {
+    "city": "Port Moody",
+    "province": "BC",
+    "count": "1",
+    "distance": 20785,
+    "lat": "49.2822243",
+    "lon": "-122.8293424"
+  },
+  "Airdrie": {
+    "city": "Airdrie",
+    "province": "AB",
+    "count": "1",
+    "distance": 684469,
+    "lat": "51.28597",
+    "lon": "-114.01062"
+  },
+  "Sechelt": {
+    "city": "Sechelt",
+    "province": "BC",
+    "count": "1",
+    "distance": 52550,
+    "lat": "49.4721147",
+    "lon": "-123.7631244"
+  },
+  "Greenwood": {
+    "city": "Greenwood",
+    "province": "IN",
+    "count": "1",
+    "distance": 3091182,
+    "lat": "39.6136578",
+    "lon": "-86.1066526"
+  },
+  "Baden": {
+    "city": "Baden",
+    "province": "ON",
+    "count": "1",
+    "distance": 3278148,
+    "lat": "43.40378",
+    "lon": "-80.668923"
+  },
+  "Salaberry-de-Valleyfield": {
+    "city": "Salaberry-de-Valleyfield",
+    "province": "QC",
+    "count": "1",
+    "distance": 3657891,
+    "lat": "45.2555625",
+    "lon": "-74.1316153"
+  },
+  "Almonte": {
+    "city": "Almonte",
+    "province": "ON",
+    "count": "1",
+    "distance": 3512554,
+    "lat": "45.226049",
+    "lon": "-76.1945277"
+  },
+  "Quezon City": {
+    "city": "Quezon City",
+    "province": null,
+    "count": "1",
+    "distance": 10540345,
+    "lat": "14.6509905",
+    "lon": "121.0486155"
+  },
+  "Bowling Green": {
+    "city": "Bowling Green",
+    "province": "OH",
+    "count": "1",
+    "distance": 3167884,
+    "lat": "41.3747744",
+    "lon": "-83.6513229"
+  },
+  "Courtenay": {
+    "city": "Courtenay",
+    "province": "BC",
+    "count": "1",
+    "distance": 144050,
+    "lat": "49.6894061",
+    "lon": "-124.9954959"
+  },
+  "Macedon": {
+    "city": "Macedon",
+    "province": "NY",
+    "count": "1",
+    "distance": 3536712,
+    "lat": "43.08588725",
+    "lon": "-77.3096786395996"
+  },
+  "Red Deer": {
+    "city": "Red Deer",
+    "province": "AB",
+    "count": "1",
+    "distance": 733655,
+    "lat": "52.269838",
+    "lon": "-113.818359"
+  },
+  "Peterborough": {
+    "city": "Peterborough",
+    "province": "ON",
+    "count": "1",
+    "distance": 3403651,
+    "lat": "44.3048009",
+    "lon": "-78.3199496"
+  },
+  "Brooklyn": {
+    "city": "Brooklyn",
+    "province": "NY",
+    "count": "1",
+    "distance": 3911732,
+    "lat": "40.6501038",
+    "lon": "-73.9495823"
+  },
+  "Malden": {
+    "city": "Malden",
+    "province": "MA",
+    "count": "1",
+    "distance": 4020237,
+    "lat": "42.4250964",
+    "lon": "-71.066163"
+  },
+  "Fort Collins": {
+    "city": "Fort Collins",
+    "province": "CO",
+    "count": "1",
+    "distance": 1712981,
+    "lat": "40.5508527",
+    "lon": "-105.0668085"
+  },
+  "Peoria": {
+    "city": "Peoria",
+    "province": "IL",
+    "count": "1",
+    "distance": 2776554,
+    "lat": "40.6938609",
+    "lon": "-89.5891008"
+  },
+  "Elgin": {
+    "city": "Elgin",
+    "province": "TX",
+    "count": "1",
+    "distance": 3014631,
+    "lat": "30.349351",
+    "lon": "-97.3705762"
+  },
+  "Cobourg": {
+    "city": "Cobourg",
+    "province": "ON",
+    "count": "1",
+    "distance": 3431249,
+    "lat": "43.9595998",
+    "lon": "-78.1677784"
+  },
+  "Beamsville": {
+    "city": "Beamsville",
+    "province": "ON",
+    "count": "1",
+    "distance": 3376361,
+    "lat": "43.1654577",
+    "lon": "-79.4751839"
+  },
+  "Saanichton": {
+    "city": "Saanichton",
+    "province": "BC",
+    "count": "1",
+    "distance": 77070,
+    "lat": "48.5972157",
+    "lon": "-123.41821509117776"
+  },
+  "Pittsburgh": {
+    "city": "Pittsburgh",
+    "province": "PA",
+    "count": "1",
+    "distance": 3485882,
+    "lat": "40.4416941",
+    "lon": "-79.9900861"
+  },
+  "Madison": {
+    "city": "Madison",
+    "province": "WI",
+    "count": "1",
+    "distance": 2662677,
+    "lat": "43.074761",
+    "lon": "-89.3837613"
+  },
+  "Fort St. John": {
+    "city": "Fort St. John",
+    "province": "BC",
+    "count": "1",
+    "distance": 792136,
+    "lat": "56.2524039",
+    "lon": "-120.846943"
+  },
+  "Lawrence": {
+    "city": "Lawrence",
+    "province": "KS",
+    "count": "1",
+    "distance": 2482565,
+    "lat": "38.9719384",
+    "lon": "-95.2359496"
+  },
+  "Atlanta": {
+    "city": "Atlanta",
+    "province": "GA",
+    "count": "1",
+    "distance": 3603186,
+    "lat": "33.7490987",
+    "lon": "-84.3901849"
+  },
+  "Saguenay": {
+    "city": "Saguenay",
+    "province": "QC",
+    "count": "1",
+    "distance": 3733956,
+    "lat": "48.405959",
+    "lon": "-71.069183"
+  },
+  "Whippany": {
+    "city": "Whippany",
+    "province": "NJ",
+    "count": "1",
+    "distance": 3867971,
+    "lat": "40.8245442",
+    "lon": "-74.4170972"
+  },
+  "Baltimore": {
+    "city": "Baltimore",
+    "province": "MD",
+    "count": "1",
+    "distance": 3798447,
+    "lat": "39.2908816",
+    "lon": "-76.610759"
+  },
+  "Chicoutimi": {
+    "city": "Chicoutimi",
+    "province": "QC",
+    "count": "1",
+    "distance": 3733037,
+    "lat": "48.3370248",
+    "lon": "-71.12352613559267"
+  },
+  "Lake Country": {
+    "city": "Lake Country",
+    "province": "BC",
+    "count": "1",
+    "distance": 280400,
+    "lat": "50.0304864",
+    "lon": "-119.4048014"
+  },
+  "Richmond": {
+    "city": "Richmond",
+    "province": "BC",
+    "count": "1",
+    "distance": 10997,
+    "lat": "49.163168",
+    "lon": "-123.137414"
+  },
+  "Stratford": {
+    "city": "Stratford",
+    "province": "ON",
+    "count": "1",
+    "distance": 3257194,
+    "lat": "43.3700899",
+    "lon": "-80.9818016"
+  },
+  "Athens": {
+    "city": "Athens",
+    "province": "GA",
+    "count": "1",
+    "distance": 3659698,
+    "lat": "33.9597677",
+    "lon": "-83.376398"
+  },
+  "Boca Raton": {
+    "city": "Boca Raton",
+    "province": "FL",
+    "count": "1",
+    "distance": 4469396,
+    "lat": "26.3586885",
+    "lon": "-80.0830984"
+  },
+  "Syracuse": {
+    "city": "Syracuse",
+    "province": "NY",
+    "count": "1",
+    "distance": 3622386,
+    "lat": "43.0481221",
+    "lon": "-76.1474244"
+  },
+  "Easton": {
+    "city": "Easton",
+    "province": "PA",
+    "count": "1",
+    "distance": 3818178,
+    "lat": "40.6916081",
+    "lon": "-75.2099866"
+  },
+  "Westmount": {
+    "city": "Westmount",
+    "province": "QC",
+    "count": "1",
+    "distance": 3685064,
+    "lat": "45.4857329",
+    "lon": "-73.5963951"
+  },
+  "Ellicott City": {
+    "city": "Ellicott City",
+    "province": "MD",
+    "count": "1",
+    "distance": 3786247,
+    "lat": "39.2673284",
+    "lon": "-76.7983067"
+  },
+  "Milton": {
+    "city": "Milton",
+    "province": "ON",
+    "count": "1",
+    "distance": 3329507,
+    "lat": "43.513671",
+    "lon": "-79.882817"
+  },
+  "Arlington": {
+    "city": "Arlington",
+    "province": "MA",
+    "count": "1",
+    "distance": 4014302,
+    "lat": "42.4153739",
+    "lon": "-71.1564428"
+  }
+}

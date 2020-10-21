@@ -1,0 +1,152 @@
+location,city,prov_or_state,country,count
+"Vancouver, BC, Canada",Vancouver,BC,Canada,57
+"Toronto, ON, Canada",Toronto,ON,Canada,31
+"Ottawa, ON, Canada",Ottawa,ON,Canada,26
+"Kitchener, ON, Canada",Kitchener,ON,Canada,21
+"Edmonton, AB, Canada",Edmonton,AB,Canada,19
+"Victoria, BC, Canada",Victoria,BC,Canada,15
+"Calgary, AB, Canada",Calgary,AB,Canada,15
+"Montreal, QC, Canada",Montreal,QC,Canada,13
+"Gatineau, QC, Canada",Gatineau,QC,Canada,12
+"London, ON, Canada",London,ON,Canada,11
+"Guelph, ON, Canada",Guelph,ON,Canada,9
+"Hamilton, ON, Canada",Hamilton,ON,Canada,9
+"Halifax, NS, Canada",Halifax,NS,Canada,7
+"Burnaby, BC, Canada",Burnaby,BC,Canada,7
+"Coquitlam, BC, Canada",Coquitlam,BC,Canada,7
+"Moscow, ID, United States",Moscow,ID,United States,7
+"Regina, SK, Canada",Regina,SK,Canada,7
+"Lethbridge, AB, Canada",Lethbridge,AB,Canada,6
+"New Westminster, BC, Canada",New Westminster,BC,Canada,5
+"Fredericton, NB, Canada",Fredericton,NB,Canada,5
+"Kamloops, BC, Canada",Kamloops,BC,Canada,4
+"St. Catharines, ON, Canada",St. Catharines,ON,Canada,4
+"Winnipeg, MB, Canada",Winnipeg,MB,Canada,4
+"Saskatoon, SK, Canada",Saskatoon,SK,Canada,4
+"Surrey, BC, Canada",Surrey,BC,Canada,4
+"Prince George, BC, Canada",Prince George,BC,Canada,3
+"Nanaimo, BC, Canada",Nanaimo,BC,Canada,3
+"Québec, QC, Canada",Québec,QC,Canada,3
+"Oakville, ON, Canada",Oakville,ON,Canada,3
+"Duncan, BC, Canada",Duncan,BC,Canada,2
+"North Vancouver, BC, Canada",North Vancouver,BC,Canada,2
+"Waterloo, ON, Canada",Waterloo,ON,Canada,2
+"Philadelphia, PA, United States",Philadelphia,PA,United States,2
+"South Orange, NJ, United States",South Orange,NJ,United States,2
+"Windsor, ON, Canada",Windsor,ON,Canada,2
+Canada,,,Canada,2
+"Kingston, ON, Canada",Kingston,ON,Canada,2
+"East Lansing, MI, United States",East Lansing,MI,United States,2
+"Denver, CO, United States",Denver,CO,United States,2
+"Providence, RI, United States",Providence,RI,United States,2
+"Kelowna, BC, Canada",Kelowna,BC,Canada,2
+"Hawkesbury, ON, Canada",Hawkesbury,ON,Canada,2
+"Sydney, NS, Canada",Sydney,NS,Canada,2
+"Oshawa, ON, Canada",Oshawa,ON,Canada,2
+"Portland, OR, United States",Portland,OR,United States,2
+"Durham, NC, United States",Durham,NC,United States,2
+"Waterville, ME, United States",Waterville,ME,United States,2
+"Miami, FL, United States",Miami,FL,United States,2
+"Abbotsford, BC, Canada",Abbotsford,BC,Canada,2
+"Burlington, ON, Canada",Burlington,ON,Canada,2
+"Mississauga, ON, Canada",Mississauga,ON,Canada,1
+"Orleans, ON, Canada",Orleans,ON,Canada,1
+"Sherbrooke, QC, Canada",Sherbrooke,QC,Canada,1
+"Santa Monica, CA, United States",Santa Monica,CA,United States,1
+"Springfield, NE, United States",Springfield,NE,United States,1
+"Durban, South Africa",Durban,,South Africa,1
+"Chicago, IL, United States",Chicago,IL,United States,1
+"Sault Ste. Marie, ON, Canada",Sault Ste. Marie,ON,Canada,1
+"Newtonville, MA, United States",Newtonville,MA,United States,1
+"Miramichi, NB, Canada",Miramichi,NB,Canada,1
+"Rockford, WA, United States",Rockford,WA,United States,1
+"Dallas, TX, United States",Dallas,TX,United States,1
+"Greater Sudbury, ON, Canada",Greater Sudbury,ON,Canada,1
+"North Bay, ON, Canada",North Bay,ON,Canada,1
+"Thunder Bay, ON, Canada",Thunder Bay,ON,Canada,1
+"Reston, VA, United States",Reston,VA,United States,1
+"Wayne, NJ, United States",Wayne,NJ,United States,1
+"Albany, NY, United States",Albany,NY,United States,1
+"Queens, NY, United States",Queens,NY,United States,1
+"Pemberton, BC, Canada",Pemberton,BC,Canada,1
+"Glace Bay, NS, Canada",Glace Bay,NS,Canada,1
+"Ithaca, NY, United States",Ithaca,NY,United States,1
+"Minneapolis, MN, United States",Minneapolis,MN,United States,1
+"Cranbrook, BC, Canada",Cranbrook,BC,Canada,1
+"Langley, BC, Canada",Langley,BC,Canada,1
+"Calabasas, CA, United States",Calabasas,CA,United States,1
+"Chilliwack, BC, Canada",Chilliwack,BC,Canada,1
+"Poughkeepsie, NY, United States",Poughkeepsie,NY,United States,1
+"Henderson, NV, United States",Henderson,NV,United States,1
+"Lakefield, ON, Canada",Lakefield,ON,Canada,1
+"Woodstock, ON, Canada",Woodstock,ON,Canada,1
+"Joplin, MO, United States",Joplin,MO,United States,1
+"Sharjah, United Arab Emirates",Sharjah,,United Arab Emirates,1
+"Tallahassee, FL, United States",Tallahassee,FL,United States,1
+"Fort Nelson, BC, Canada",Fort Nelson,BC,Canada,1
+"Brampton, ON, Canada",Brampton,ON,Canada,1
+"Chennai, India",Chennai,,India,1
+"St. John's, NL, Canada",St. John's,NL,Canada,1
+"Acton, ON, Canada",Acton,ON,Canada,1
+"West Lafayette, IN, United States",West Lafayette,IN,United States,1
+"Medicine Hat, AB, Canada",Medicine Hat,AB,Canada,1
+"Vaughan, ON, Canada",Vaughan,ON,Canada,1
+"Hyattsville, MD, United States",Hyattsville,MD,United States,1
+"Oakland, CA, United States",Oakland,CA,United States,1
+United Kingdom,,,United Kingdom,1
+"Lynn, MA, United States",Lynn,MA,United States,1
+"Grand Rapids, MI, United States",Grand Rapids,MI,United States,1
+"Parkville, MD, United States",Parkville,MD,United States,1
+"Vaudreuil-Dorion, QC, Canada",Vaudreuil-Dorion,QC,Canada,1
+"Prince Rupert, BC, Canada",Prince Rupert,BC,Canada,1
+"Nelson, BC, Canada",Nelson,BC,Canada,1
+"Squamish, BC, Canada",Squamish,BC,Canada,1
+"Rancho Palos Verdes, CA, United States",Rancho Palos Verdes,CA,United States,1
+"North Battleford, SK, Canada",North Battleford,SK,Canada,1
+"St. Albert, AB, Canada",St. Albert,AB,Canada,1
+"Groton, CT, United States",Groton,CT,United States,1
+"North Kingstown, RI, United States",North Kingstown,RI,United States,1
+"Rumford, RI, United States",Rumford,RI,United States,1
+"Nepean, ON, Canada",Nepean,ON,Canada,1
+"Port Moody, BC, Canada",Port Moody,BC,Canada,1
+"Airdrie, AB, Canada",Airdrie,AB,Canada,1
+"Sechelt, BC, Canada",Sechelt,BC,Canada,1
+"Greenwood, IN, United States",Greenwood,IN,United States,1
+"Baden, ON, Canada",Baden,ON,Canada,1
+"Salaberry-de-Valleyfield, QC, Canada",Salaberry-de-Valleyfield,QC,Canada,1
+"Almonte, ON, Canada",Almonte,ON,Canada,1
+"Quezon City, Philippines",Quezon City,,Philippines,1
+"Bowling Green, OH, United States",Bowling Green,OH,United States,1
+"Courtenay, BC, Canada",Courtenay,BC,Canada,1
+"Macedon, NY, United States",Macedon,NY,United States,1
+"Red Deer, AB, Canada",Red Deer,AB,Canada,1
+"Peterborough, ON, Canada",Peterborough,ON,Canada,1
+"Brooklyn, NY, United States",Brooklyn,NY,United States,1
+"Malden, MA, United States",Malden,MA,United States,1
+"Fort Collins, CO, United States",Fort Collins,CO,United States,1
+"Peoria, IL, United States",Peoria,IL,United States,1
+"Elgin, TX, United States",Elgin,TX,United States,1
+"Cobourg, ON, Canada",Cobourg,ON,Canada,1
+"Beamsville, ON, Canada",Beamsville,ON,Canada,1
+"Saanichton, BC, Canada",Saanichton,BC,Canada,1
+"Pittsburgh, PA, United States",Pittsburgh,PA,United States,1
+"ON, Canada",,ON,Canada,1
+"Madison, WI, United States",Madison,WI,United States,1
+"Fort St. John, BC, Canada",Fort St. John,BC,Canada,1
+"Lawrence, KS, United States",Lawrence,KS,United States,1
+"Atlanta, GA, United States",Atlanta,GA,United States,1
+"Saguenay, QC, Canada",Saguenay,QC,Canada,1
+"Whippany, NJ, United States",Whippany,NJ,United States,1
+"Baltimore, MD, United States",Baltimore,MD,United States,1
+"Chicoutimi, QC, Canada",Chicoutimi,QC,Canada,1
+"Lake Country, BC, Canada",Lake Country,BC,Canada,1
+"Richmond, BC, Canada",Richmond,BC,Canada,1
+"Stratford, ON, Canada",Stratford,ON,Canada,1
+"Athens, GA, United States",Athens,GA,United States,1
+"Boca Raton, FL, United States",Boca Raton,FL,United States,1
+"Syracuse, NY, United States",Syracuse,NY,United States,1
+"Easton, PA, United States",Easton,PA,United States,1
+"Westmount, QC, Canada",Westmount,QC,Canada,1
+"Ellicott City, MD, United States",Ellicott City,MD,United States,1
+"Milton, ON, Canada",Milton,ON,Canada,1
+"Arlington, MA, United States",Arlington,MA,United States,1
