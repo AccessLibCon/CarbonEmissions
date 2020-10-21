@@ -11,7 +11,11 @@
 
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
-
+	
+	
+<script src="data/2019-affiliations.json" charset="utf-8"></script>
+<script src="data/2020-affiliations.json" charset="utf-8"></script>
+<script src="scripts/map.js"></script>
 
 	
 </head>
@@ -19,10 +23,17 @@
 
 
 
-<div id="mapid" style="width: 600px; height: 400px;"></div>
+<div id="map2019" style="width: 600px; height: 400px;">
+ <h1>2019</h1>
+</div>
+<div id="map2020" style="width: 600px; height: 400px;">
+  <h1>2020</h1>
+</div>
 <div id="total_distance"></div>
-<script src="data/2020-affiliations.json" charset="utf-8"></script>
-<script src="scripts/map.js"></script>
+<script>
+	prepareMap('map2019', locations2019)
+	prepareMap('map2020', locations2020)
+</script>
 
 
 

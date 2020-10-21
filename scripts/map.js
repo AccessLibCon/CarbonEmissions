@@ -1,4 +1,6 @@
-	var mymap = L.map('mapid').setView([48.8,  -103.19740715], 3);
+function  prepareMap(mapid, locations) {
+
+    var mymap = L.map(mapid).setView([48.8,  -103.19740715], 3);
 
 	L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
 		maxZoom: 18,
@@ -13,10 +15,10 @@
 
     total_distance = 0;
     total_participants = 0;
-	for(var key in locationsJSON) {
-       L.marker([locationsJSON[key]["lat"], locationsJSON[key]["lon"]]).addTo(mymap);
-       total_distance += locationsJSON[key]["distance"]*locationsJSON[key]["count"];
-       total_participants += locationsJSON[key]["count"];
+	for(var key in locations) {
+       L.marker([locations[key]["lat"], locations[key]["lon"]]).addTo(mymap);
+       total_distance += locations[key]["distance"]*locations[key]["count"];
+       total_participants += locations[key]["count"];
     }
 
 	var circle = L.circle([49.2608724, -123.1139529], {
@@ -25,3 +27,5 @@
       fillOpacity: 0.5,
       radius: total_distance/total_participants
     }).addTo(mymap);
+
+}
