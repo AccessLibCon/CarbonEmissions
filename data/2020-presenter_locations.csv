@@ -1,0 +1,25 @@
+location,city,prov_or_state,country,count
+"Vancouver, BC, Canada",Vancouver,BC,Canada,10
+"Toronto, ON, Canada",Toronto,ON,Canada,5
+"Ottawa, ON, Canada",Ottawa,ON,Canada,5
+"Edmonton, AB, Canada",Edmonton,AB,Canada,3
+"Victoria, BC, Canada",Victoria,BC,Canada,3
+"Miami, FL, USA",Miami,FL,USA,2
+"Calgary, AB, Canada",Calgary,AB,Canada,2
+"Waterloo, ON, Canada",Waterloo,ON,Canada,2
+"Guelph, ON, Canada",Guelph,ON,Canada,2
+"Kamloops, BC, Canada",Kamloops,BC,Canada,1
+"Sudbury, ON, Canada",Sudbury,ON,Canada,1
+"Hamilton, ON, Canada",Hamilton,ON,Canada,1
+"Halifax, NS, Canada",Halifax,NS,Canada,1
+"Lawrence, KS, USA",Lawrence,KS,USA,1
+"Waterville, ME, USA",Waterville,ME,USA,1
+"Chapel Hill, NC, USA",Chapel Hill,NC,USA,1
+"Surrey, BC, Canada",Surrey,BC,Canada,1
+"Montreal, QC, Canada",Montreal,QC,Canada,1
+"Winnipeg, MN, USA",Winnipeg,MN,USA,1
+"Bozeman, MT, USA",Bozeman,MT,USA,1
+"Burnaby, BC, Canada",Burnaby,BC,Canada,1
+"St. Catherines, ON, Canada",St. Catherines,ON,Canada,1
+"New Westminster, BC, Canada",New Westminster,BC,Canada,1
+"Cedar, BC, Canada",Cedar,BC,Canada,1

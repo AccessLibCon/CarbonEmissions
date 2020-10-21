@@ -1,0 +1,194 @@
+{
+  "Vancouver": {
+    "city": "Vancouver",
+    "province": "BC",
+    "count": "10",
+    "distance": 0,
+    "lat": "49.2608724",
+    "lon": "-123.1139529"
+  },
+  "Toronto": {
+    "city": "Toronto",
+    "province": "ON",
+    "count": "5",
+    "distance": 3358618,
+    "lat": "43.6534817",
+    "lon": "-79.3839347"
+  },
+  "Ottawa": {
+    "city": "Ottawa",
+    "province": "ON",
+    "count": "5",
+    "distance": 3539485,
+    "lat": "45.421106",
+    "lon": "-75.690308"
+  },
+  "Edmonton": {
+    "city": "Edmonton",
+    "province": "AB",
+    "count": "3",
+    "distance": 817443,
+    "lat": "53.535411",
+    "lon": "-113.507996"
+  },
+  "Victoria": {
+    "city": "Victoria",
+    "province": "BC",
+    "count": "3",
+    "distance": 94380,
+    "lat": "48.4283182",
+    "lon": "-123.3649533"
+  },
+  "Miami": {
+    "city": "Miami",
+    "province": "FL",
+    "count": "2",
+    "distance": 4509045,
+    "lat": "25.7742658",
+    "lon": "-80.1936589"
+  },
+  "Calgary": {
+    "city": "Calgary",
+    "province": "AB",
+    "count": "2",
+    "distance": 674419,
+    "lat": "51.0534234",
+    "lon": "-114.0625892"
+  },
+  "Waterloo": {
+    "city": "Waterloo",
+    "province": "ON",
+    "count": "2",
+    "distance": 3285453,
+    "lat": "43.466874",
+    "lon": "-80.524635"
+  },
+  "Guelph": {
+    "city": "Guelph",
+    "province": "ON",
+    "count": "2",
+    "distance": 3301436,
+    "lat": "43.5460516",
+    "lon": "-80.2493276"
+  },
+  "Kamloops": {
+    "city": "Kamloops",
+    "province": "BC",
+    "count": "1",
+    "distance": 253215,
+    "lat": "50.6758269",
+    "lon": "-120.3394159"
+  },
+  "Sudbury": {
+    "city": "Sudbury",
+    "province": "ON",
+    "count": "1",
+    "distance": 3115657,
+    "lat": "46.49272",
+    "lon": "-80.991211"
+  },
+  "Hamilton": {
+    "city": "Hamilton",
+    "province": "ON",
+    "count": "1",
+    "distance": 3343061,
+    "lat": "43.2560802",
+    "lon": "-79.8728583"
+  },
+  "Halifax": {
+    "city": "Halifax",
+    "province": "NS",
+    "count": "1",
+    "distance": 4429167,
+    "lat": "44.648618",
+    "lon": "-63.5859487"
+  },
+  "Lawrence": {
+    "city": "Lawrence",
+    "province": "KS",
+    "count": "1",
+    "distance": 2482565,
+    "lat": "38.9719384",
+    "lon": "-95.2359496"
+  },
+  "Waterville": {
+    "city": "Waterville",
+    "province": "ME",
+    "count": "1",
+    "distance": 4010701,
+    "lat": "44.5520105",
+    "lon": "-69.6317121"
+  },
+  "Chapel Hill": {
+    "city": "Chapel Hill",
+    "province": "NC",
+    "count": "1",
+    "distance": 3834622,
+    "lat": "35.9131542",
+    "lon": "-79.05578"
+  },
+  "Surrey": {
+    "city": "Surrey",
+    "province": "BC",
+    "count": "1",
+    "distance": 20728,
+    "lat": "49.1913033",
+    "lon": "-122.8491439"
+  },
+  "Montreal": {
+    "city": "Montreal",
+    "province": "QC",
+    "count": "1",
+    "distance": 3683540,
+    "lat": "45.4972159",
+    "lon": "-73.6103642"
+  },
+  "Winnipeg": {
+    "city": "Winnipeg",
+    "province": "MN",
+    "count": "1",
+    "distance": 2778471,
+    "lat": "37.6044889",
+    "lon": "-92.30222"
+  },
+  "Bozeman": {
+    "city": "Bozeman",
+    "province": "MT",
+    "count": "1",
+    "distance": 989337,
+    "lat": "45.6794293",
+    "lon": "-111.0440474"
+  },
+  "Burnaby": {
+    "city": "Burnaby",
+    "province": "BC",
+    "count": "1",
+    "distance": 10446,
+    "lat": "49.2433804",
+    "lon": "-122.9725459"
+  },
+  "St. Catherines": {
+    "city": "St. Catherines",
+    "province": "ON",
+    "count": "1",
+    "distance": 7664041,
+    "lat": "50.84829335",
+    "lon": "0.47730163622707106"
+  },
+  "New Westminster": {
+    "city": "New Westminster",
+    "province": "BC",
+    "count": "1",
+    "distance": 15924,
+    "lat": "49.2067726",
+    "lon": "-122.9108818"
+  },
+  "Cedar": {
+    "city": "Cedar",
+    "province": "BC",
+    "count": "1",
+    "distance": 56873,
+    "lat": "49.1154934",
+    "lon": "-123.8642459"
+  }
+}
