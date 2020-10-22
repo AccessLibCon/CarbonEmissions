@@ -1,4 +1,4 @@
-function  prepareMap(mapid, locations) {
+function  prepareMap(mapid, locations, center_lat, center_lon) {
 
     var mymap = L.map(mapid).setView([48.8,  -103.19740715], 3);
 
@@ -21,7 +21,7 @@ function  prepareMap(mapid, locations) {
        total_participants += locations[key]["count"];
     }
 
-	var circle = L.circle([49.2608724, -123.1139529], {
+	var circle = L.circle([center_lat, center_lon], {
       color: 'red',
       fillColor: '#f03',
       fillOpacity: 0.5,
