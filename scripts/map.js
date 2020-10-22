@@ -51,5 +51,5 @@ function displayCalculation(id, year, value) {
 }
 function value_with_commas(value) {
     //Add commas to pring the number as 9,999,999 for example
-    return value.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
+    //Commenting out due to error in live site return value.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
 }
