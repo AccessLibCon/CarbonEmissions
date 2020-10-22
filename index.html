@@ -44,25 +44,29 @@
     <div class="row bg-dark text-white">
        <div class="col-sm">
           <div class="my-3 p-4">
-            <h2 class="display-5 text-white">2019 - Edmonton</h2>
-            <label for="map2019" class="lead">A short title labelling the map</label>
+            <h3 class="display-5 text-white">2019 - Edmonton</h3>
+            <label for="map2019" class="lead">Speakers locations, with a red circle indicating average distance away from conference host location.</label>
             <div id="map2019" style="width: 400px; height: 375px;"></div>
+            <p class="py-2"><span id="total2019" class="display-4"></span><br/>total km traveled by speakers alone</p>
+            <p class="py-2"><span id="average2019" class="display-4"></span><br/> average km from conference center</p>
         </div>
       </div>
       <div class="col-sm">
         <div class="my-3 p-4">
           <h2 class="display-5 text-white">2020 - Vancouver (Virtual)</h2>
-          <label for="map2020" class="lead">A short title labelling the map</label>
+            <label for="map2019" class="lead">Speakers locations, with a red circle indicating average distance away from conference host location.</label>
           <div id="map2020" style="width: 400px; height: 375px;"></div>
+            <p class="py-2"><span id="total2020" class="display-4"></span><br/>total km spanned virtuallyi by speakers alone</p>
+            <p class="py-2"><span id="average2020" class="display-4"></span><br/>average km from conference center</p>
         </div>
       </div>
     </div>
 
-    <div id="total_distance"></div>
-
 <script>
 	prepareMap('map2019', locations2019, "53.535411", "-113.507996")
 	prepareMap('map2020', locations2020, "49.2608724", "-123.1139529")
+        calculateDistance('2019', locations2019)
+        calculateDistance('2020', locations2020)
 </script>
 
 
