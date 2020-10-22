@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Carbon Emissions and Access 2020</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/lux/bootstrap.min.css" integrity="sha384-9+PGKSqjRdkeAU7Eu4nkJU8RFaH8ace8HGXnkiKMP9I9Te0GJ4/km3L1Z8tXigpG" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>	
+	
+<script src="data/2019-affiliations.json" charset="utf-8"></script>
+<script src="data/2020-affiliations.json" charset="utf-8"></script>
+<script src="scripts/map.js"></script>
+	
+</head>
+<body>
+
+
+    <nav class="site-header bg-dark text-white py-1">
+      <div class="container d-flex flex-column flex-md-row justify-content-between">
+        <!--<a class="py-2" href="">
+          Access icon here
+        </a>-->
+        <a class="py-2 d-none d-md-inline-block text-white" href="https://accessconference.ca/">Access Conference Home</a>
+        <a class="py-2 d-none d-md-inline-block text-white" href="https://github.com/AccessLibCon/CarbonEmissions/">GitHub</a>
+      </div>
+    </nav>
+    
+    <div class="row">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Carbon Emissions and Access Conferences</h1>
+      </div>
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <p class="lead font-weight-normal">We're thinking critically about carbon emissions of national conferences.</p>
+        <p class="lead font-weight-normal">In 2019, Peter Binkley <a href="https://youtu.be/TRoqBGw3EMM?t=601">warned</a> "We have to stop meeting like this" citing <a href="https://pics.uvic.ca/sites/default/files/AirTravelWP_FINAL.pdf">evidence of greenhouse gas emissions resulting from business-related air travel</a>.</p>
+        <p class="lead font-weight-normal">He could not have foreseen a pandemic would move the conference online. <strong>We now have the opportunity to explore the impact</strong> of that change.</p>
+      </div>
+    </div>
+
+    <div class="row bg-dark text-white">
+       <div class="col-sm">
+          <div class="my-3 p-4">
+            <h2 class="display-5 text-white">2019 - Edmonton</h2>
+            <label for="map2019" class="lead">A short title labelling the map</label>
+            <div id="map2019" style="width: 400px; height: 375px;"></div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="my-3 p-4">
+          <h2 class="display-5 text-white">2020 - Vancouver (Virtual)</h2>
+          <label for="map2020" class="lead">A short title labelling the map</label>
+          <div id="map2020" style="width: 400px; height: 375px;"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="total_distance"></div>
+
+<script>
+	prepareMap('map2019', locations2019, "53.535411", "-113.507996")
+	prepareMap('map2020', locations2020, "49.2608724", "-123.1139529")
+</script>
+
+
+
+</body>
+</html>
